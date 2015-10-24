@@ -1,3 +1,8 @@
 
+<h1><%= @post.title %> </h1>
+<p>Description : <%= @post.description %></p>
+<p>Auteur : <%= @post.user_id %></p>
+
+
 <%= link_to 'Edit', edit_post_path(@post) %> |
-<%= link_to 'Back', posts_path %>
+<%= link_to 'Back', root_path %>
