@@ -1,7 +1,7 @@
 
 <h1><%= @post.title %> </h1>
 <p>Description : <%= @post.description %></p>
-<p>Auteur : <%= @post.user_id %></p>
+<p>Auteur : <%= @post.user.email %></p>
 
 
 <%= link_to 'Edit', edit_post_path(@post) %> |
